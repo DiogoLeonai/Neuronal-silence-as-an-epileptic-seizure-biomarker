@@ -27,10 +27,10 @@ Executing the simulation produces three `.dat` files:
 - **Coefficient of variation** `CV(t)` – quantifies spike irregularity  
 - **Mean silence time** `<T>` – the biomarker proposed in this work  
 
-By default, the code simulates **250 seconds** of network activity. You can adjust:  
+By default, the code simulates **250 seconds** of network activity. The simulation time depends on your CPU and may take from minutes to hours.  We recommend **starting with a shorter simulation** to test the code and then increasing it to your desired duration for full analysis. You can adjust:  
 - **Simulation time** (shorter or longer runs)  
 - **Coupling strength**  
-- **Other model parameters**  
+- **Other model parameters** (most of the parameters we consider are from the experimental datas) 
 
 This flexibility allows exploration of how `<T>` behaves under different dynamical regimes.  
 
