@@ -50,10 +50,9 @@ This design forces the model to capture short-term temporal dependencies and use
 This predictive model demonstrated strong performance in estimating the **synchronization level** of the neuronal network across different stimulation frequencies and coupling strengths, while using the **same training set**. This highlights the robustness and generalization capacity of our approach.  
 
 **Contents of this folder:**  
-- The **trained Random Forest model** for coupling strength of 1.811 nS/cm² (`.keras`)  
 - Four **example mean silence time series** from the simulations  
 - Python code to:
-  - Load the trained model  
+  - Train the model 
   - Perform predictions on new data  
   - Evaluate performance using standard classification metrics  
 
