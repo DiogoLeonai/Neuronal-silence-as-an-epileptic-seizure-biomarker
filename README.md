@@ -22,20 +22,21 @@ All simulations in the paper were implemented in **C**. In this repository, we p
 - A C compiler such as `gcc` or `icc`  
 
 **Running the code:**  
-Executing the simulation produces three `.dat` files:  
+Executing the simulation produces four `.dat` files:  
 - **Kuramoto order parameter** `R(t)` – measures global synchronization  
 - **Coefficient of variation** `CV(t)` – quantifies spike irregularity  
-- **Mean silence time** `<T>` – the biomarker proposed in this work  
+- **Mean silence time** `<T>` – the biomarker proposed in this work
+- **Raster plot** – spike timing of individual neurons over the simulation (to reduce file size, only spikes from 200 neurons are saved)
 
 By default, the code simulates **250 seconds** of network activity. The simulation time depends on your CPU and may take from minutes to hours.  We recommend **starting with a shorter simulation** to test the code and then increasing it to your desired duration for full analysis. You can adjust:  
 - **Simulation time** (shorter or longer runs)  
 - **Coupling strength**  
-- **Other model parameters** (most of the parameters we consider are from the experimental datas) 
+- **Other model parameters** (most of the parameters we consider are from the experimental data) 
 
 This flexibility allows exploration of how `<T>` behaves under different dynamical regimes.  
 
 **Visualization:**  
-A Jupyter Notebook (`plot.ipynb`) is included for plotting and analyzing the results.  
+A Jupyter Notebook (`plots.ipynb`) is included for plotting and analyzing the results.  
 
 ---
 
