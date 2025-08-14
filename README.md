@@ -1,4 +1,4 @@
-# Neuronal-silence-as-an-epileptic-seizure-biomarker
+# Neuronal silence as an epileptic seizure biomarker
 
 This repository contains the codes and resources associated with the manuscript *"Neuronal silence as an epileptic seizure biomarker"*.  
 
